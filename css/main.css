@@ -1,0 +1,204 @@
+/**** Base Styles *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757780;
+    letter-spacing: 1px;
+}
+
+
+/****** Grid *********/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/******* Header *******/
+
+header {
+    background: url("../img/header.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 30px;
+    color: #512D38;
+    font-weight: bold;
+    padding: 0 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #BD6B73;
+}
+
+header h1 {
+    color: #BD6B73;
+    font-family: 'Roboto Slab', serif;
+    font-size: 75px;
+    padding-top: 250px;
+    margin: 0;
+    text-align: center;
+}
+
+header h2 {
+    color: #512D38;
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/********* Work *********/
+
+#work {
+    height: 1450px;
+}
+
+#work h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+#work .half-width-right {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+#work img {
+    border: 1px solid #BD6B73;
+    width: 550px;
+    height: auto;
+    margin: 25px;
+    clear: both;
+}
+
+#work h4 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+#work h5, p {
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 25px;
+}
+
+/********* About *********/
+
+#about {
+    background: #BD6B73;
+    height: 650px;
+}
+
+#about h3 {
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+#about img {
+    border: 1px solid #757780;
+    width: 550px;
+    height: auto;
+}
+
+#about p {
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 0;
+}
+
+#about p span {
+    font-weight: bold;
+}
+
+/********** Contact ********/
+
+#contact {
+    background: #512D38;
+    height: 400px;
+}
+
+#contact h3 {
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact h4 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact p {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact ul {
+    padding: 0;
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding: 20px;
+}
+
+
+/***** Footer ******/
+
+footer {
+    background: #512D38;
+    height: 25px;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0;
+    text-align: center;
+}
